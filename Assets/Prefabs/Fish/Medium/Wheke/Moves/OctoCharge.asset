@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee51576aaa1bad4b94e6a9cda485cfc, type: 3}
+  m_Name: OctoCharge
+  m_EditorClassIdentifier: 
+  _attackToFollowPercentage: 0
+  _attackToFollow: {fileID: 0}
+  _myQTE: {fileID: 11400000, guid: 9bb838bcaf86df444b956b1907176557, type: 2}
+  myAction: 8
+  _event: {fileID: 11400000, guid: 1e8fe1bd9f5f0394887f01879a49df11, type: 2}
+  _tellDuration: 1
+  _chargeDuration: 5
+  _percentageOfLineIncrease: 10
+  _initialBoost: 6
+  _speedMultiplier: 3
+  _tensionGainMultiplier: 1.6
+  _tensionReduceMultiplier: 0.5

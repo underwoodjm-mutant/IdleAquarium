@@ -1,0 +1,3850 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8881f0b25e8ade04f8567ef5ce3ef5dd, type: 3}
+  m_Name: FishDatabase
+  m_EditorClassIdentifier: 
+  fishes:
+  - Id: 1
+    Name: Flamander
+    Description: Playful and abundant near the warmth of the lava powered vents.
+      They are curious and will actively approach newcomers, although will dart as
+      soon as they sense danger.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 2
+    Name: Flamander
+    Description: Playful and abundant near the warmth of the lava powered vents.
+      They are curious and will actively approach newcomers, although will dart as
+      soon as they sense danger.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 3
+    Name: Flamander
+    Description: Playful and abundant near the warmth of the lava powered vents.
+      They are curious and will actively approach newcomers, although will dart as
+      soon as they sense danger.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 4
+    Name: Flamander
+    Description: Playful and abundant near the warmth of the lava powered vents.
+      They are curious and will actively approach newcomers, although will dart as
+      soon as they sense danger.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 5
+    Name: Flamander
+    Description: Playful and abundant near the warmth of the lava powered vents.
+      They are curious and will actively approach newcomers, although will dart as
+      soon as they sense danger.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 6
+    Name: Hauhauh
+    Description: Plump and bouncy, Hauhauh are not hard to find in the tropics, although
+      they tend to stick closer to shallows and rocks. They are passive and actually
+      pretty friendly.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Slow and floaty, like to jump when hooked.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 7
+    Name: Hauhauh
+    Description: Plump and bouncy, Hauhauh are not hard to find in the tropics, although
+      they tend to stick closer to shallows and rocks. They are passive and actually
+      pretty friendly.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Slow and floaty, like to jump when hooked.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 8
+    Name: Hauhauh
+    Description: Plump and bouncy, Hauhauh are not hard to find in the tropics, although
+      they tend to stick closer to shallows and rocks. They are passive and actually
+      pretty friendly.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Slow and floaty, like to jump when hooked.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 9
+    Name: Hauhauh
+    Description: Plump and bouncy, Hauhauh are not hard to find in the tropics, although
+      they tend to stick closer to shallows and rocks. They are passive and actually
+      pretty friendly.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Slow and floaty, like to jump when hooked.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 10
+    Name: Hauhauh
+    Description: Plump and bouncy, Hauhauh are not hard to find in the tropics, although
+      they tend to stick closer to shallows and rocks. They are passive and actually
+      pretty friendly.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Slow and floaty, like to jump when hooked.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 11
+    Name: Tadfish
+    Description: Quick, skittish but not the smartest, tadfish are probably the easiest
+      to catch and most abundant species in the tropical zone.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Quick movements, and pauses. They tend to not veer far from
+      the rest of the school and are squirely but the simplest when it comes to catching
+      them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 12
+    Name: Tadfish
+    Description: Quick, skittish but not the smartest, tadfish are probably the easiest
+      to catch and most abundant species in the tropical zone.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Quick movements, and pauses. They tend to not veer far from
+      the rest of the school and are squirely but the simplest when it comes to catching
+      them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 13
+    Name: Tadfish
+    Description: Quick, skittish but not the smartest, tadfish are probably the easiest
+      to catch and most abundant species in the tropical zone.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Quick movements, and pauses. They tend to not veer far from
+      the rest of the school and are squirely but the simplest when it comes to catching
+      them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 14
+    Name: Tadfish
+    Description: Quick, skittish but not the smartest, tadfish are probably the easiest
+      to catch and most abundant species in the tropical zone.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Quick movements, and pauses. They tend to not veer far from
+      the rest of the school and are squirely but the simplest when it comes to catching
+      them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 15
+    Name: Tadfish
+    Description: Quick, skittish but not the smartest, tadfish are probably the easiest
+      to catch and most abundant species in the tropical zone.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Quick movements, and pauses. They tend to not veer far from
+      the rest of the school and are squirely but the simplest when it comes to catching
+      them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 16
+    Name: Bubbla
+    Description: "They swim in small pods but can also be found by themselves. The
+      bubble on their heads helps them attract mates, but it also can be easily broken,
+      so they are careful to avoid danger. They are relatively friendly and will
+      follow the boat, but as soon as the boat goes near them, they will scatter.
+      Even though they are in the small category, they are among the largest \u201Csmall\u201D
+      fish."
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 17
+    Name: Bubbla
+    Description: "They swim in small pods but can also be found by themselves. The
+      bubble on their heads helps them attract mates, but it also can be easily broken,
+      so they are careful to avoid danger. They are relatively friendly and will
+      follow the boat, but as soon as the boat goes near them, they will scatter.
+      Even though they are in the small category, they are among the largest \u201Csmall\u201D
+      fish."
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 18
+    Name: Bubbla
+    Description: "They swim in small pods but can also be found by themselves. The
+      bubble on their heads helps them attract mates, but it also can be easily broken,
+      so they are careful to avoid danger. They are relatively friendly and will
+      follow the boat, but as soon as the boat goes near them, they will scatter.
+      Even though they are in the small category, they are among the largest \u201Csmall\u201D
+      fish."
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 19
+    Name: Bubbla
+    Description: "They swim in small pods but can also be found by themselves. The
+      bubble on their heads helps them attract mates, but it also can be easily broken,
+      so they are careful to avoid danger. They are relatively friendly and will
+      follow the boat, but as soon as the boat goes near them, they will scatter.
+      Even though they are in the small category, they are among the largest \u201Csmall\u201D
+      fish."
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 20
+    Name: Bubbla
+    Description: "They swim in small pods but can also be found by themselves. The
+      bubble on their heads helps them attract mates, but it also can be easily broken,
+      so they are careful to avoid danger. They are relatively friendly and will
+      follow the boat, but as soon as the boat goes near them, they will scatter.
+      Even though they are in the small category, they are among the largest \u201Csmall\u201D
+      fish."
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Placeholder
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 21
+    Name: Zuko
+    Description: Quick moving aggressive fish that are difficult to hook. They like
+      to hide among the rocks and other tight safe places, although the smell of
+      meat catches their attention.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Jetting motions, where they will move forward and stop,
+      and then move forward again which may be a challenge to deal with among the
+      waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 22
+    Name: Zuko
+    Description: Quick moving aggressive fish that are difficult to hook. They like
+      to hide among the rocks and other tight safe places, although the smell of
+      meat catches their attention.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Jetting motions, where they will move forward and stop,
+      and then move forward again which may be a challenge to deal with among the
+      waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 23
+    Name: Zuko
+    Description: Quick moving aggressive fish that are difficult to hook. They like
+      to hide among the rocks and other tight safe places, although the smell of
+      meat catches their attention.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Jetting motions, where they will move forward and stop,
+      and then move forward again which may be a challenge to deal with among the
+      waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 24
+    Name: Zuko
+    Description: Quick moving aggressive fish that are difficult to hook. They like
+      to hide among the rocks and other tight safe places, although the smell of
+      meat catches their attention.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Jetting motions, where they will move forward and stop,
+      and then move forward again which may be a challenge to deal with among the
+      waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 25
+    Name: Zuko
+    Description: Quick moving aggressive fish that are difficult to hook. They like
+      to hide among the rocks and other tight safe places, although the smell of
+      meat catches their attention.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Jetting motions, where they will move forward and stop,
+      and then move forward again which may be a challenge to deal with among the
+      waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 26
+    Name: Tunnbrod
+    Description: These small flappy guys stay near the surface, flowing with the
+      waves.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Bubbla will jump out of the water and use tight turns to
+      snap the line. They are also fast and powerful.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 27
+    Name: Tunnbrod
+    Description: These small flappy guys stay near the surface, flowing with the
+      waves.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Bubbla will jump out of the water and use tight turns to
+      snap the line. They are also fast and powerful.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 28
+    Name: Tunnbrod
+    Description: These small flappy guys stay near the surface, flowing with the
+      waves.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Bubbla will jump out of the water and use tight turns to
+      snap the line. They are also fast and powerful.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 29
+    Name: Tunnbrod
+    Description: These small flappy guys stay near the surface, flowing with the
+      waves.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Bubbla will jump out of the water and use tight turns to
+      snap the line. They are also fast and powerful.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 30
+    Name: Tunnbrod
+    Description: These small flappy guys stay near the surface, flowing with the
+      waves.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Bubbla will jump out of the water and use tight turns to
+      snap the line. They are also fast and powerful.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 31
+    Name: Wiri
+    Description: Wild little wiggly fish.. They are often seen in schools and jumping
+      the waves near the surface. They are tricky to catch as they scatter quickly
+      and are picky when it comes to bait.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Fast and spindly, Zuko use jumping to their advantage.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 32
+    Name: Wiri
+    Description: Wild little wiggly fish.. They are often seen in schools and jumping
+      the waves near the surface. They are tricky to catch as they scatter quickly
+      and are picky when it comes to bait.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Fast and spindly, Zuko use jumping to their advantage.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 33
+    Name: Wiri
+    Description: Wild little wiggly fish.. They are often seen in schools and jumping
+      the waves near the surface. They are tricky to catch as they scatter quickly
+      and are picky when it comes to bait.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Fast and spindly, Zuko use jumping to their advantage.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 34
+    Name: Wiri
+    Description: Wild little wiggly fish.. They are often seen in schools and jumping
+      the waves near the surface. They are tricky to catch as they scatter quickly
+      and are picky when it comes to bait.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Fast and spindly, Zuko use jumping to their advantage.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 35
+    Name: Wiri
+    Description: Wild little wiggly fish.. They are often seen in schools and jumping
+      the waves near the surface. They are tricky to catch as they scatter quickly
+      and are picky when it comes to bait.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Fast and spindly, Zuko use jumping to their advantage.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 36
+    Name: Ataata
+    Description: Small fish from far below the surface that survive off of sediment.
+      You will not find them swimming around as much, but sometimes they will latch
+      onto other fish with their tiny hooked claws to get where they need to go.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: They are relatively easy to catch as they are not the strongest
+      or fastest fish. They are able to jump and do a few quick movements but their
+      defenses are not high at all.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 37
+    Name: Ataata
+    Description: Small fish from far below the surface that survive off of sediment.
+      You will not find them swimming around as much, but sometimes they will latch
+      onto other fish with their tiny hooked claws to get where they need to go.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: They are relatively easy to catch as they are not the strongest
+      or fastest fish. They are able to jump and do a few quick movements but their
+      defenses are not high at all.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 38
+    Name: Ataata
+    Description: Small fish from far below the surface that survive off of sediment.
+      You will not find them swimming around as much, but sometimes they will latch
+      onto other fish with their tiny hooked claws to get where they need to go.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: They are relatively easy to catch as they are not the strongest
+      or fastest fish. They are able to jump and do a few quick movements but their
+      defenses are not high at all.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 39
+    Name: Ataata
+    Description: Small fish from far below the surface that survive off of sediment.
+      You will not find them swimming around as much, but sometimes they will latch
+      onto other fish with their tiny hooked claws to get where they need to go.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: They are relatively easy to catch as they are not the strongest
+      or fastest fish. They are able to jump and do a few quick movements but their
+      defenses are not high at all.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 40
+    Name: Ataata
+    Description: Small fish from far below the surface that survive off of sediment.
+      You will not find them swimming around as much, but sometimes they will latch
+      onto other fish with their tiny hooked claws to get where they need to go.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: They are relatively easy to catch as they are not the strongest
+      or fastest fish. They are able to jump and do a few quick movements but their
+      defenses are not high at all.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 41
+    Name: Krabba
+    Description: They are rarely found in the water, and spend most of their time
+      on the icebergs and rocks. Its hard to hook them, so using other means to catch
+      them will be necessary.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 2
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Once hooked, they use quick zigzag movements and jump after
+      jump.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 42
+    Name: Krabba
+    Description: They are rarely found in the water, and spend most of their time
+      on the icebergs and rocks. Its hard to hook them, so using other means to catch
+      them will be necessary.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 2
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Once hooked, they use quick zigzag movements and jump after
+      jump.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 43
+    Name: Krabba
+    Description: They are rarely found in the water, and spend most of their time
+      on the icebergs and rocks. Its hard to hook them, so using other means to catch
+      them will be necessary.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 2
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Once hooked, they use quick zigzag movements and jump after
+      jump.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 44
+    Name: Krabba
+    Description: They are rarely found in the water, and spend most of their time
+      on the icebergs and rocks. Its hard to hook them, so using other means to catch
+      them will be necessary.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 2
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Once hooked, they use quick zigzag movements and jump after
+      jump.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 45
+    Name: Krabba
+    Description: They are rarely found in the water, and spend most of their time
+      on the icebergs and rocks. Its hard to hook them, so using other means to catch
+      them will be necessary.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 2
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Once hooked, they use quick zigzag movements and jump after
+      jump.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 46
+    Name: Ngata
+    Description: Unlike other creatures, these guys stick to rocks above the water.
+      If they see you coming or get too close, they suck into their shells. Ngata
+      stick to the rocks and removing them can be very difficult.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: When Ataatas are hooked they abruptly go side to side. They
+      don't jump as often, but they are persistent in attempting to get away.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 47
+    Name: Ngata
+    Description: Unlike other creatures, these guys stick to rocks above the water.
+      If they see you coming or get too close, they suck into their shells. Ngata
+      stick to the rocks and removing them can be very difficult.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: When Ataatas are hooked they abruptly go side to side. They
+      don't jump as often, but they are persistent in attempting to get away.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 48
+    Name: Ngata
+    Description: Unlike other creatures, these guys stick to rocks above the water.
+      If they see you coming or get too close, they suck into their shells. Ngata
+      stick to the rocks and removing them can be very difficult.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: When Ataatas are hooked they abruptly go side to side. They
+      don't jump as often, but they are persistent in attempting to get away.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 49
+    Name: Ngata
+    Description: Unlike other creatures, these guys stick to rocks above the water.
+      If they see you coming or get too close, they suck into their shells. Ngata
+      stick to the rocks and removing them can be very difficult.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: When Ataatas are hooked they abruptly go side to side. They
+      don't jump as often, but they are persistent in attempting to get away.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 50
+    Name: Ngata
+    Description: Unlike other creatures, these guys stick to rocks above the water.
+      If they see you coming or get too close, they suck into their shells. Ngata
+      stick to the rocks and removing them can be very difficult.
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: When Ataatas are hooked they abruptly go side to side. They
+      don't jump as often, but they are persistent in attempting to get away.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 51
+    Name: Clampjaw
+    Description: Watch out, they bite!
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: Stamina is on their side as they drag the boat effortlessly.
+      They don't leave the surface of the water. They are just very hard to tire
+      out to pull them closer to your boat without snapping the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 52
+    Name: Clampjaw
+    Description: Watch out, they bite!
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: Stamina is on their side as they drag the boat effortlessly.
+      They don't leave the surface of the water. They are just very hard to tire
+      out to pull them closer to your boat without snapping the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 53
+    Name: Clampjaw
+    Description: Watch out, they bite!
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: Stamina is on their side as they drag the boat effortlessly.
+      They don't leave the surface of the water. They are just very hard to tire
+      out to pull them closer to your boat without snapping the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 54
+    Name: Clampjaw
+    Description: Watch out, they bite!
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: Stamina is on their side as they drag the boat effortlessly.
+      They don't leave the surface of the water. They are just very hard to tire
+      out to pull them closer to your boat without snapping the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 55
+    Name: Clampjaw
+    Description: Watch out, they bite!
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: Stamina is on their side as they drag the boat effortlessly.
+      They don't leave the surface of the water. They are just very hard to tire
+      out to pull them closer to your boat without snapping the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 56
+    Name: Lumaca
+    Description: "A nearly brainless creature that sees all. With its many eyes,
+      it does not miss much, making it a bit more elusive than other fish. It\u2019s
+      too large to be around the rocks and doesn\u2019t hunt any fish, but prefers
+      plant life and krill to survive."
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: Persistent, and energetic, they will swim away from the
+      boat every chance they get which makes bringing them in hard. They also prefer
+      to jump and dive.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 57
+    Name: Lumaca
+    Description: "A nearly brainless creature that sees all. With its many eyes,
+      it does not miss much, making it a bit more elusive than other fish. It\u2019s
+      too large to be around the rocks and doesn\u2019t hunt any fish, but prefers
+      plant life and krill to survive."
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: Persistent, and energetic, they will swim away from the
+      boat every chance they get which makes bringing them in hard. They also prefer
+      to jump and dive.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 58
+    Name: Lumaca
+    Description: "A nearly brainless creature that sees all. With its many eyes,
+      it does not miss much, making it a bit more elusive than other fish. It\u2019s
+      too large to be around the rocks and doesn\u2019t hunt any fish, but prefers
+      plant life and krill to survive."
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: Persistent, and energetic, they will swim away from the
+      boat every chance they get which makes bringing them in hard. They also prefer
+      to jump and dive.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 59
+    Name: Lumaca
+    Description: "A nearly brainless creature that sees all. With its many eyes,
+      it does not miss much, making it a bit more elusive than other fish. It\u2019s
+      too large to be around the rocks and doesn\u2019t hunt any fish, but prefers
+      plant life and krill to survive."
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: Persistent, and energetic, they will swim away from the
+      boat every chance they get which makes bringing them in hard. They also prefer
+      to jump and dive.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 60
+    Name: Lumaca
+    Description: "A nearly brainless creature that sees all. With its many eyes,
+      it does not miss much, making it a bit more elusive than other fish. It\u2019s
+      too large to be around the rocks and doesn\u2019t hunt any fish, but prefers
+      plant life and krill to survive."
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: Persistent, and energetic, they will swim away from the
+      boat every chance they get which makes bringing them in hard. They also prefer
+      to jump and dive.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 61
+    Name: Martelo
+    Description: An aggressive hunter that you will most commonly see hunting smaller
+      fish in the vents. They either hunt completely alone or in very large schools,
+      which make other fish hide in the rocks and harder to find.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: This needs to be rewritten
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 62
+    Name: Martelo
+    Description: An aggressive hunter that you will most commonly see hunting smaller
+      fish in the vents. They either hunt completely alone or in very large schools,
+      which make other fish hide in the rocks and harder to find.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: This needs to be rewritten
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 63
+    Name: Martelo
+    Description: An aggressive hunter that you will most commonly see hunting smaller
+      fish in the vents. They either hunt completely alone or in very large schools,
+      which make other fish hide in the rocks and harder to find.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: This needs to be rewritten
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 64
+    Name: Martelo
+    Description: An aggressive hunter that you will most commonly see hunting smaller
+      fish in the vents. They either hunt completely alone or in very large schools,
+      which make other fish hide in the rocks and harder to find.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: This needs to be rewritten
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 65
+    Name: Martelo
+    Description: An aggressive hunter that you will most commonly see hunting smaller
+      fish in the vents. They either hunt completely alone or in very large schools,
+      which make other fish hide in the rocks and harder to find.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: This needs to be rewritten
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 66
+    Name: Purerehu
+    Description: These beautiful creatures like to swiftly move under the waves in
+      packs of 3-5, and are always on the move. Tracking them can be difficult at
+      times but they do like shiny things, which will stop them in their tracks to
+      observe.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: Sharp and feisty, they will jump, twirl and battle their
+      way out of being caught. They have the most stamina for any medium fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 67
+    Name: Purerehu
+    Description: These beautiful creatures like to swiftly move under the waves in
+      packs of 3-5, and are always on the move. Tracking them can be difficult at
+      times but they do like shiny things, which will stop them in their tracks to
+      observe.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: Sharp and feisty, they will jump, twirl and battle their
+      way out of being caught. They have the most stamina for any medium fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 68
+    Name: Purerehu
+    Description: These beautiful creatures like to swiftly move under the waves in
+      packs of 3-5, and are always on the move. Tracking them can be difficult at
+      times but they do like shiny things, which will stop them in their tracks to
+      observe.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: Sharp and feisty, they will jump, twirl and battle their
+      way out of being caught. They have the most stamina for any medium fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 69
+    Name: Purerehu
+    Description: These beautiful creatures like to swiftly move under the waves in
+      packs of 3-5, and are always on the move. Tracking them can be difficult at
+      times but they do like shiny things, which will stop them in their tracks to
+      observe.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: Sharp and feisty, they will jump, twirl and battle their
+      way out of being caught. They have the most stamina for any medium fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 70
+    Name: Purerehu
+    Description: These beautiful creatures like to swiftly move under the waves in
+      packs of 3-5, and are always on the move. Tracking them can be difficult at
+      times but they do like shiny things, which will stop them in their tracks to
+      observe.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: Sharp and feisty, they will jump, twirl and battle their
+      way out of being caught. They have the most stamina for any medium fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 71
+    Name: Rokuao
+    Description: While they may look cute, these guys like to bite.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: They move slowly and with grace, catching them is like a
+      slow waltz, where missing steps can lead to a failure to catch them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 72
+    Name: Rokuao
+    Description: While they may look cute, these guys like to bite.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: They move slowly and with grace, catching them is like a
+      slow waltz, where missing steps can lead to a failure to catch them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 73
+    Name: Rokuao
+    Description: While they may look cute, these guys like to bite.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: They move slowly and with grace, catching them is like a
+      slow waltz, where missing steps can lead to a failure to catch them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 74
+    Name: Rokuao
+    Description: While they may look cute, these guys like to bite.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: They move slowly and with grace, catching them is like a
+      slow waltz, where missing steps can lead to a failure to catch them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 75
+    Name: Rokuao
+    Description: While they may look cute, these guys like to bite.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: They move slowly and with grace, catching them is like a
+      slow waltz, where missing steps can lead to a failure to catch them.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 76
+    Name: Skoldpada
+    Description: These guys cruise along the surface, sometimes alone and sometimes
+      in small groups. They seem very casual until they are hooked, where their muscular
+      fins have a lot of power behind them.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: They can pull the boat faster than any other large fish.
+      They stay low in the water, and will try to dive and zig-zag to escape.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 77
+    Name: Skoldpada
+    Description: These guys cruise along the surface, sometimes alone and sometimes
+      in small groups. They seem very casual until they are hooked, where their muscular
+      fins have a lot of power behind them.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: They can pull the boat faster than any other large fish.
+      They stay low in the water, and will try to dive and zig-zag to escape.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 78
+    Name: Skoldpada
+    Description: These guys cruise along the surface, sometimes alone and sometimes
+      in small groups. They seem very casual until they are hooked, where their muscular
+      fins have a lot of power behind them.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: They can pull the boat faster than any other large fish.
+      They stay low in the water, and will try to dive and zig-zag to escape.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 79
+    Name: Skoldpada
+    Description: These guys cruise along the surface, sometimes alone and sometimes
+      in small groups. They seem very casual until they are hooked, where their muscular
+      fins have a lot of power behind them.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: They can pull the boat faster than any other large fish.
+      They stay low in the water, and will try to dive and zig-zag to escape.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 80
+    Name: Skoldpada
+    Description: These guys cruise along the surface, sometimes alone and sometimes
+      in small groups. They seem very casual until they are hooked, where their muscular
+      fins have a lot of power behind them.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: They can pull the boat faster than any other large fish.
+      They stay low in the water, and will try to dive and zig-zag to escape.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 81
+    Name: Whai
+    Description: While they may look like their cousins, the Nuiwahi, these ray like
+      creatures are some of the fastest in these waters.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: Powerful stamina based , with large tail swings and jaw
+      power to devour just about everything. They will avoid being caught by lashing
+      out at the boat, or diving.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 82
+    Name: Whai
+    Description: While they may look like their cousins, the Nuiwahi, these ray like
+      creatures are some of the fastest in these waters.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: Powerful stamina based , with large tail swings and jaw
+      power to devour just about everything. They will avoid being caught by lashing
+      out at the boat, or diving.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 83
+    Name: Whai
+    Description: While they may look like their cousins, the Nuiwahi, these ray like
+      creatures are some of the fastest in these waters.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: Powerful stamina based , with large tail swings and jaw
+      power to devour just about everything. They will avoid being caught by lashing
+      out at the boat, or diving.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 84
+    Name: Whai
+    Description: While they may look like their cousins, the Nuiwahi, these ray like
+      creatures are some of the fastest in these waters.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: Powerful stamina based , with large tail swings and jaw
+      power to devour just about everything. They will avoid being caught by lashing
+      out at the boat, or diving.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 85
+    Name: Whai
+    Description: While they may look like their cousins, the Nuiwahi, these ray like
+      creatures are some of the fastest in these waters.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: Powerful stamina based , with large tail swings and jaw
+      power to devour just about everything. They will avoid being caught by lashing
+      out at the boat, or diving.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 86
+    Name: Wheke
+    Description: The Wheke is slow and observant, but also curious. They will observe
+      lures but will jet off in a cloud of ink if they detect fishy behavior and
+      will not take the bait.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 10
+    MovementDescription: "Slow, long term battle\u2026 avoiding the objects it pulls
+      you past and keeping the line in one piece the entire time will be the struggle
+      here"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 87
+    Name: Wheke
+    Description: The Wheke is slow and observant, but also curious. They will observe
+      lures but will jet off in a cloud of ink if they detect fishy behavior and
+      will not take the bait.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 15
+    MovementDescription: "Slow, long term battle\u2026 avoiding the objects it pulls
+      you past and keeping the line in one piece the entire time will be the struggle
+      here"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 88
+    Name: Wheke
+    Description: The Wheke is slow and observant, but also curious. They will observe
+      lures but will jet off in a cloud of ink if they detect fishy behavior and
+      will not take the bait.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 20
+    MovementDescription: "Slow, long term battle\u2026 avoiding the objects it pulls
+      you past and keeping the line in one piece the entire time will be the struggle
+      here"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 89
+    Name: Wheke
+    Description: The Wheke is slow and observant, but also curious. They will observe
+      lures but will jet off in a cloud of ink if they detect fishy behavior and
+      will not take the bait.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 25
+    MovementDescription: "Slow, long term battle\u2026 avoiding the objects it pulls
+      you past and keeping the line in one piece the entire time will be the struggle
+      here"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 90
+    Name: Wheke
+    Description: The Wheke is slow and observant, but also curious. They will observe
+      lures but will jet off in a cloud of ink if they detect fishy behavior and
+      will not take the bait.
+    Type: 1
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.8
+    Experience: 30
+    MovementDescription: "Slow, long term battle\u2026 avoiding the objects it pulls
+      you past and keeping the line in one piece the entire time will be the struggle
+      here"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 91
+    Name: Delasvans
+    Description: Delasvans are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 10
+    MovementDescription: Quick and whip like. They make sharp turns in attempts to
+      snap the line. They tend to want to dive rather than jump above the waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 92
+    Name: Delasvans
+    Description: Delasvans are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 15
+    MovementDescription: Quick and whip like. They make sharp turns in attempts to
+      snap the line. They tend to want to dive rather than jump above the waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 93
+    Name: Delasvans
+    Description: Delasvans are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 20
+    MovementDescription: Quick and whip like. They make sharp turns in attempts to
+      snap the line. They tend to want to dive rather than jump above the waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 94
+    Name: Delasvans
+    Description: Delasvans are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 25
+    MovementDescription: Quick and whip like. They make sharp turns in attempts to
+      snap the line. They tend to want to dive rather than jump above the waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 95
+    Name: Delasvans
+    Description: Delasvans are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 30
+    MovementDescription: Quick and whip like. They make sharp turns in attempts to
+      snap the line. They tend to want to dive rather than jump above the waves.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 96
+    Name: Nuiwhai
+    Description: Nuiwhai are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 10
+    MovementDescription: Large sweeping motions, they are powerful and have a lot
+      of stamina, bursts of speed and turns that have potential to break the lines.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 97
+    Name: Nuiwhai
+    Description: Nuiwhai are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 15
+    MovementDescription: Large sweeping motions, they are powerful and have a lot
+      of stamina, bursts of speed and turns that have potential to break the lines.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 98
+    Name: Nuiwhai
+    Description: Nuiwhai are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 20
+    MovementDescription: Large sweeping motions, they are powerful and have a lot
+      of stamina, bursts of speed and turns that have potential to break the lines.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 99
+    Name: Nuiwhai
+    Description: Nuiwhai are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 25
+    MovementDescription: Large sweeping motions, they are powerful and have a lot
+      of stamina, bursts of speed and turns that have potential to break the lines.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 100
+    Name: Nuiwhai
+    Description: Nuiwhai are most often spotted basking near the surface, gliding
+      below the waves. They are a sight to behold if you are lucky enough to see
+      one.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 30
+    MovementDescription: Large sweeping motions, they are powerful and have a lot
+      of stamina, bursts of speed and turns that have potential to break the lines.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 101
+    Name: Roamano
+    Description: Roamano keep to deep water in order to stay out of the light. They
+      tend to stalk their prey before making an appearance. They see you long before
+      you seen them.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 10
+    MovementDescription: FAST, these guys move at top speed, using jumps and zig
+      zags to attempt to throw you off course, and will do everything in their power
+      to stay away from the boat. Their stamina is also among the highest of any
+      of the small fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 102
+    Name: Roamano
+    Description: Roamano keep to deep water in order to stay out of the light. They
+      tend to stalk their prey before making an appearance. They see you long before
+      you seen them.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 15
+    MovementDescription: FAST, these guys move at top speed, using jumps and zig
+      zags to attempt to throw you off course, and will do everything in their power
+      to stay away from the boat. Their stamina is also among the highest of any
+      of the small fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 103
+    Name: Roamano
+    Description: Roamano keep to deep water in order to stay out of the light. They
+      tend to stalk their prey before making an appearance. They see you long before
+      you seen them.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 20
+    MovementDescription: FAST, these guys move at top speed, using jumps and zig
+      zags to attempt to throw you off course, and will do everything in their power
+      to stay away from the boat. Their stamina is also among the highest of any
+      of the small fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 104
+    Name: Roamano
+    Description: Roamano keep to deep water in order to stay out of the light. They
+      tend to stalk their prey before making an appearance. They see you long before
+      you seen them.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 25
+    MovementDescription: FAST, these guys move at top speed, using jumps and zig
+      zags to attempt to throw you off course, and will do everything in their power
+      to stay away from the boat. Their stamina is also among the highest of any
+      of the small fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 105
+    Name: Roamano
+    Description: Roamano keep to deep water in order to stay out of the light. They
+      tend to stalk their prey before making an appearance. They see you long before
+      you seen them.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 30
+    MovementDescription: FAST, these guys move at top speed, using jumps and zig
+      zags to attempt to throw you off course, and will do everything in their power
+      to stay away from the boat. Their stamina is also among the highest of any
+      of the small fish.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 106
+    Name: Roroaata
+    Description: "Roroaata circle in the depths, only surfacing to devour prey that
+      catch their interest. Oftentimes, you will only glimpse a massive shadow. It\u2019s
+      true appearance is revealed when it uses its immense strength to jump above
+      the waves to catch it\u2019s prey."
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 10
+    MovementDescription: It might feel like you are reeling in a living rock.. Its
+      movements are slow but it seems to never tire out.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 107
+    Name: Roroaata
+    Description: "Roroaata circle in the depths, only surfacing to devour prey that
+      catch their interest. Oftentimes, you will only glimpse a massive shadow. It\u2019s
+      true appearance is revealed when it uses its immense strength to jump above
+      the waves to catch it\u2019s prey."
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 15
+    MovementDescription: It might feel like you are reeling in a living rock.. Its
+      movements are slow but it seems to never tire out.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 108
+    Name: Roroaata
+    Description: "Roroaata circle in the depths, only surfacing to devour prey that
+      catch their interest. Oftentimes, you will only glimpse a massive shadow. It\u2019s
+      true appearance is revealed when it uses its immense strength to jump above
+      the waves to catch it\u2019s prey."
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 20
+    MovementDescription: It might feel like you are reeling in a living rock.. Its
+      movements are slow but it seems to never tire out.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 109
+    Name: Roroaata
+    Description: "Roroaata circle in the depths, only surfacing to devour prey that
+      catch their interest. Oftentimes, you will only glimpse a massive shadow. It\u2019s
+      true appearance is revealed when it uses its immense strength to jump above
+      the waves to catch it\u2019s prey."
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 25
+    MovementDescription: It might feel like you are reeling in a living rock.. Its
+      movements are slow but it seems to never tire out.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 110
+    Name: Roroaata
+    Description: "Roroaata circle in the depths, only surfacing to devour prey that
+      catch their interest. Oftentimes, you will only glimpse a massive shadow. It\u2019s
+      true appearance is revealed when it uses its immense strength to jump above
+      the waves to catch it\u2019s prey."
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 2
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 30
+    MovementDescription: It might feel like you are reeling in a living rock.. Its
+      movements are slow but it seems to never tire out.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 111
+    Name: Soltongfisk
+    Description: The Soltongfisk is probably the closest in size to a kaiju without
+      being classified as one, and directly competes with the large sharks in the
+      reefs on the rare occasion that they meet as they compete over the depth.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 10
+    MovementDescription: "Sharp and fast, this power house will use its head to its
+      advantage to throw you off the line, and break stuff in its way in the effort
+      to hit you with debris. It may even shoot spikes at you\u2026"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 112
+    Name: Soltongfisk
+    Description: The Soltongfisk is probably the closest in size to a kaiju without
+      being classified as one, and directly competes with the large sharks in the
+      reefs on the rare occasion that they meet as they compete over the depth.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 15
+    MovementDescription: "Sharp and fast, this power house will use its head to its
+      advantage to throw you off the line, and break stuff in its way in the effort
+      to hit you with debris. It may even shoot spikes at you\u2026"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 113
+    Name: Soltongfisk
+    Description: The Soltongfisk is probably the closest in size to a kaiju without
+      being classified as one, and directly competes with the large sharks in the
+      reefs on the rare occasion that they meet as they compete over the depth.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 20
+    MovementDescription: "Sharp and fast, this power house will use its head to its
+      advantage to throw you off the line, and break stuff in its way in the effort
+      to hit you with debris. It may even shoot spikes at you\u2026"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 114
+    Name: Soltongfisk
+    Description: The Soltongfisk is probably the closest in size to a kaiju without
+      being classified as one, and directly competes with the large sharks in the
+      reefs on the rare occasion that they meet as they compete over the depth.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 25
+    MovementDescription: "Sharp and fast, this power house will use its head to its
+      advantage to throw you off the line, and break stuff in its way in the effort
+      to hit you with debris. It may even shoot spikes at you\u2026"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 115
+    Name: Soltongfisk
+    Description: The Soltongfisk is probably the closest in size to a kaiju without
+      being classified as one, and directly competes with the large sharks in the
+      reefs on the rare occasion that they meet as they compete over the depth.
+    Type: 2
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 1
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 1.6
+    Experience: 30
+    MovementDescription: "Sharp and fast, this power house will use its head to its
+      advantage to throw you off the line, and break stuff in its way in the effort
+      to hit you with debris. It may even shoot spikes at you\u2026"
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 3
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 0
+    WeightClassMultiplier: 2
+    Experience: 0
+    MovementDescription: 
+    CatchMissionCount1: 0
+    CatchMissionCount2: 0
+    CatchMissionCount3: 0
+    BoonBonus: 0
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 0
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 10
+    MovementDescription: Quick movements with a lot of stamina, it will use broad
+      turns and dives to attempt to break the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 1
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 15
+    MovementDescription: Quick movements with a lot of stamina, it will use broad
+      turns and dives to attempt to break the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 3
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 20
+    MovementDescription: Quick movements with a lot of stamina, it will use broad
+      turns and dives to attempt to break the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 4
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 25
+    MovementDescription: Quick movements with a lot of stamina, it will use broad
+      turns and dives to attempt to break the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
+  - Id: 0
+    Name: 
+    Description: 
+    Type: 0
+    Habitat: 0
+    CatchTier: 0
+    Attractor: 0
+    Rarity: 5
+    SpecialLootId: 0
+    Difficulty: 1
+    WeightClassMultiplier: 2
+    Experience: 30
+    MovementDescription: Quick movements with a lot of stamina, it will use broad
+      turns and dives to attempt to break the line.
+    CatchMissionCount1: 5
+    CatchMissionCount2: 10
+    CatchMissionCount3: 50
+    BoonBonus: 5
+    Weight: 1
+    Speed: 1
+    NumberCaught: 0
+    Discovered: 0
