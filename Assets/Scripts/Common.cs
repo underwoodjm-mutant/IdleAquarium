@@ -15,6 +15,13 @@ public enum CollectionEventType
     donate, unknown
 }
 
+public enum BountyTier
+{
+    OpenContract,    // Low Cost
+    VeteranContract, // Mid Cost
+    EliteWarrant     // High Cost
+}
+
 public enum platform
 {
     steam,
@@ -47,6 +54,16 @@ public enum resourceType
     barrel,
     unknown
 }
+
+public enum RarityLevel
+{
+    Common = 0,
+    Uncommon = 1,
+    Rare = 2,
+    Epic = 3,
+    Legendary = 4
+}
+
 
 public enum tutorialAcknowledgementButton
 {

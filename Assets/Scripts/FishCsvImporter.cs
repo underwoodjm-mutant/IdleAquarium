@@ -20,6 +20,7 @@ public static class FishCsvImporter
 {
     private const string DefaultOutputPath = "Assets/Data/FishDatabase.asset";
 
+#if UNITY_EDITOR
     [MenuItem("Tools/Import/Fish CSV to FishDatabase")]
     public static void ImportCsvToSO()
     {
@@ -209,4 +210,5 @@ public static class FishCsvImporter
                 yield return line;
         }
     }
+#endif
 }
