@@ -19,7 +19,7 @@ public enum BountyTier
 {
     OpenContract,    // Low Cost
     VeteranContract, // Mid Cost
-    EliteWarrant     // High Cost
+    EliteContract     // High Cost
 }
 
 public enum platform

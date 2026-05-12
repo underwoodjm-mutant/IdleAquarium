@@ -636,7 +636,7 @@ MonoBehaviour:
   tankSpawnVolume: {fileID: 350639373}
   _spawnAreaSize: {x: 10, y: 5, z: 10}
   _fishDatabase: {fileID: 11400000, guid: 110d7f81fa8b9dd43a1bd41e4b5fd1ea, type: 2}
-  _defaultFishPrefab: {fileID: 2255618974971886495, guid: 5bd447d6c181ce74592c6f4e6accaeb0,
+  _defaultFishPrefab: {fileID: 2255618974971886495, guid: f465ea837fbd1a245bf4f5b17bf3eacc,
     type: 3}
 --- !u!4 &328809967
 Transform:
@@ -3275,7 +3275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openContractBtn: {fileID: 1063237922}
   veteranContractBtn: {fileID: 1800817331}
-  eliteWarrantBtn: {fileID: 1273205184}
+  eliteContractBtn: {fileID: 1273205184}
   selectedHabitat: 0
   audioSource: {fileID: 0}
   stapleSound: {fileID: 0}
@@ -4750,7 +4750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1963754821
 RectTransform:
   m_ObjectHideFlags: 0

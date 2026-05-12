@@ -9,12 +9,12 @@ public class BountyBoardManager : Singleton<BountyBoardManager>
     [Header("Bounty Costs (In Lumins)")]
     public float OpenContractCost = 1000f;
     public float VeteranContractCost = 15000f;
-    public float EliteWarrantCost = 100000f;
+    public float EliteContractCost = 100000f;
 
     [Header("Bounty Wait Times (In Seconds)")]
     public float OpenContractTime = 5f;
     public float VeteranContractTime = 15f;
-    public float EliteWarrantTime = 30f;
+    public float EliteContractTime = 30f;
 
     // The currently running bounty (For now, just one at a time)
     private ActiveBountyRecord _currentBounty;
@@ -31,7 +31,7 @@ public class BountyBoardManager : Singleton<BountyBoardManager>
     // --- WEIGHTED DROP TABLES ---
     private readonly int[] _openContractWeights = { 80, 15, 4, 1, 0 };
     private readonly int[] _veteranContractWeights = { 40, 30, 20, 9, 1 };
-    private readonly int[] _eliteWarrantWeights = { 0, 20, 40, 30, 10 };
+    private readonly int[] _eliteContractWeights = { 0, 20, 40, 30, 10 };
 
     private PendingReward _pendingReward;
 
@@ -227,11 +227,27 @@ public class BountyBoardManager : Singleton<BountyBoardManager>
 
         if (keepFish)
         {
+            //Fetch the template data for the fish we just won
+            FishData caughtFishData = FishDatabase.Instance.GetById(_pendingReward.FishId);
+
+            // Let's generate a base speed based on how big they are!
+            // Smaller weight = faster base speed. Larger weight = slower base speed.
+            float baseSpeed = 15f - (caughtFishData.Weight * 0.5f);
+
+            // Clamp it so massive fish don't end up with negative speed
+            baseSpeed = Mathf.Clamp(baseSpeed, 2f, 25f);
+
+            Debug.Log($"Base speed for the caught fish (ID: {_pendingReward.FishId}) is {baseSpeed}.");
+
+            //Add a little random variance so it saves permanently to this specific fish!
+            float randomizedSpeed = baseSpeed * UnityEngine.Random.Range(0.8f, 1.2f);
+
             // Player kept it. NOW we sync to the main game save file.
             IdleTankManager.Instance.SyncIdleUnlockToMainGame(
                 _pendingReward.FishId,
                 _pendingReward.WeightModifier,
-                (int)_pendingReward.Rarity);
+                randomizedSpeed
+            );
 
             Debug.Log("Player kept the fish. Synced to KFSaveData.");
         }
@@ -261,7 +277,7 @@ public class BountyBoardManager : Singleton<BountyBoardManager>
         {
             case BountyTier.OpenContract: return OpenContractCost;
             case BountyTier.VeteranContract: return VeteranContractCost;
-            case BountyTier.EliteWarrant: return EliteWarrantCost;
+            case BountyTier.EliteContract: return EliteContractCost;
             default: return 0f;
         }
     }
@@ -272,7 +288,7 @@ public class BountyBoardManager : Singleton<BountyBoardManager>
         {
             case BountyTier.OpenContract: return OpenContractTime;
             case BountyTier.VeteranContract: return VeteranContractTime;
-            case BountyTier.EliteWarrant: return EliteWarrantTime;
+            case BountyTier.EliteContract: return EliteContractTime;
             default: return 5f;
         }
     }
@@ -284,7 +300,7 @@ public class BountyBoardManager : Singleton<BountyBoardManager>
         {
             case BountyTier.OpenContract: activeWeights = _openContractWeights; break;
             case BountyTier.VeteranContract: activeWeights = _veteranContractWeights; break;
-            case BountyTier.EliteWarrant: activeWeights = _eliteWarrantWeights; break;
+            case BountyTier.EliteContract: activeWeights = _eliteContractWeights; break;
             default: activeWeights = _openContractWeights; break;
         }
 

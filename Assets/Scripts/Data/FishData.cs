@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 [Serializable]
 public class FishData
@@ -26,4 +27,9 @@ public class FishData
     public float Speed;
     public int NumberCaught;
     public bool Discovered;
+
+    [Header("Visuals")]
+    public Sprite Icon;
+    public Sprite BG;
+    public GameObject IdlePrefab;//The specific 3D model prefab for this species
 }

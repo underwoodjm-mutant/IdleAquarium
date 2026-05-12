@@ -10,7 +10,7 @@ public class BountyBoardUI : MonoBehaviour
     [Header("Contract Buttons")]
     public Button openContractBtn;
     public Button veteranContractBtn;
-    public Button eliteWarrantBtn;
+    public Button eliteContractBtn;
 
     [Header("Current Habitat Target")]
     // In a full game, you might change this via a dropdown or map click.
@@ -77,7 +77,7 @@ public class BountyBoardUI : MonoBehaviour
         // Hook up the buttons
         openContractBtn.onClick.AddListener(BuyOpenContract);
         veteranContractBtn.onClick.AddListener(BuyVeteranContract);
-        eliteWarrantBtn.onClick.AddListener(BuyEliteWarrant);
+        eliteContractBtn.onClick.AddListener(BuyEliteContract);
     }
 
     private void OnDisable()
@@ -96,7 +96,7 @@ public class BountyBoardUI : MonoBehaviour
 
         openContractBtn.onClick.RemoveAllListeners();
         veteranContractBtn.onClick.RemoveAllListeners();
-        eliteWarrantBtn.onClick.RemoveAllListeners();
+        eliteContractBtn.onClick.RemoveAllListeners();
     }
 
     //ANGLER RETURNS
@@ -206,7 +206,7 @@ public class BountyBoardUI : MonoBehaviour
         lootboxPanel.SetActive(false);
         openContractBtn.interactable = true;
         veteranContractBtn.interactable = true;
-        eliteWarrantBtn.interactable = true;
+        eliteContractBtn.interactable = true;
     }
 
     /*
@@ -273,7 +273,7 @@ public class BountyBoardUI : MonoBehaviour
         // 1. Disable the buttons so they can't buy another one yet
         openContractBtn.interactable = false;
         veteranContractBtn.interactable = false;
-        eliteWarrantBtn.interactable = false;
+        eliteContractBtn.interactable = false;
 
         // 2. Show the "Scavenger is hunting" text overlay
         if (inProgressOverlay != null) inProgressOverlay.SetActive(true);
@@ -304,7 +304,7 @@ public class BountyBoardUI : MonoBehaviour
     {
         openContractBtn.interactable = false;
         veteranContractBtn.interactable = false;
-        eliteWarrantBtn.interactable = false;
+        eliteContractBtn.interactable = false;
 
         // Ensure the collect button starts hidden while the timer is running
         if (collectBountyBtn != null) collectBountyBtn.gameObject.SetActive(false);
@@ -378,9 +378,9 @@ public class BountyBoardUI : MonoBehaviour
         else { ShowError("Not Enough Lumins!"); }
     }
 
-    private void BuyEliteWarrant()
+    private void BuyEliteContract()
     {
-        bool success = BountyBoardManager.Instance.PostBounty(BountyTier.EliteWarrant, selectedHabitat);
+        bool success = BountyBoardManager.Instance.PostBounty(BountyTier.EliteContract, selectedHabitat);
 
         if (success) { PlaySound(stapleSound); }
         else { ShowError("Not Enough Lumins!"); }

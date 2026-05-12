@@ -25,6 +25,7 @@ public class IdleTankManager : Singleton<IdleTankManager>
     // Tracks all spawned fish so the EconomyManager can read their stats
     public List<IdleFishController> ActiveFish { get; private set; } = new List<IdleFishController>();
 
+    public Bounds TankBounds => tankSpawnVolume.bounds;
 
     public override void Awake()
     {
@@ -146,18 +147,28 @@ public class IdleTankManager : Singleton<IdleTankManager>
             });
         }
 
-        SpawnFishVisually(newFishId, weight);
+        SpawnFishVisually(newFishId, weight, speed);
 
         //Write back to the shared save
         ES3.Save(key, currentCollection, sharedSave);
         Debug.Log($"Successfully synced Idle Unlock (ID: {newFishId}) to Kaiju Fishing save!");
     }
 
-    private void SpawnFishVisually(int fishId, float weightMod)
+    private void SpawnFishVisually(int fishId, float weightMod, float speed)
     {
-        if (_defaultFishPrefab == null || tankSpawnVolume == null)
+        if (tankSpawnVolume == null)
         {
             Debug.LogError("Tank Manager is missing prefabs or spawn volume!");
+            return;
+        }
+
+        //Fetch the Template Data
+        FishData templateData = FishDatabase.Instance.GetById(fishId);
+
+        if (templateData == null) return;
+        if (templateData.IdlePrefab == null)
+        {
+            Debug.LogError($"FishData for {templateData.Name} is missing its IdlePrefab!");
             return;
         }
 
@@ -165,21 +176,20 @@ public class IdleTankManager : Singleton<IdleTankManager>
         Vector3 randomPos = GetRandomPositionInWater();
 
         //Spawn the prefab
-        GameObject newFishObj = Instantiate(_defaultFishPrefab, randomPos, Quaternion.identity);
+        GameObject newFishObj = Instantiate(templateData.IdlePrefab, randomPos, Quaternion.identity, transform);
 
         //Apply the modified weight size
         // If the fish is 20% heavier, make it 20% larger in 3D space!
         newFishObj.transform.localScale = Vector3.one * weightMod;
 
-        //Fetch the Template Data
-        FishData templateData = FishDatabase.Instance.GetById(fishId);
+        
         if (templateData == null) return;
 
         //Construct a mock SaveRecord for the instance data
         FishSaveRecord newRecord = new FishSaveRecord
         {
             LastWeight = templateData.Weight * weightMod,
-            //LastSpeed = templateData.Speed // Assuming FishData has a base speed
+            LastSpeed = speed
         };
 
         IdleFishController idleController = newFishObj.GetComponent<IdleFishController>();
@@ -187,6 +197,7 @@ public class IdleTankManager : Singleton<IdleTankManager>
         {
             // This sets up the BoonsPerSecond and scales the 3D model!
             idleController.Initialize(newRecord, templateData);
+            ActiveFish.Add(idleController); // Track it for the EconomyManager
         }
         else
         {
