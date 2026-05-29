@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EconomyManager : Singleton<EconomyManager>
 {
@@ -43,6 +44,23 @@ public class EconomyManager : Singleton<EconomyManager>
         OnBankChanged?.Invoke(BankedBoons);
     }
 
+    [ContextMenu("HACK: Hard Reset Save Data")]
+    private void HardResetGame()
+    {
+        Debug.LogWarning("[DEV HACK] Wiping save data and restarting scene...");
+
+        // 1. Delete the specific Easy Save file
+        if (ES3.FileExists(IdleSaveFile)) //
+        {
+            ES3.DeleteFile(IdleSaveFile); //
+        }
+
+        // Optional: If you have other save files for settings or rosters, delete them here too!
+        // if (ES3.FileExists("IdleSettingsData.es3")) ES3.DeleteFile("IdleSettingsData.es3");
+
+        // 2. Reload the current scene to start completely fresh
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 #endif
     // ==========================================
     public override void Awake()
@@ -63,28 +81,56 @@ public class EconomyManager : Singleton<EconomyManager>
 
     private void Update()
     {
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if (Input.GetKeyDown(KeyCode.F1))
         {
-            InjectDevBoons();
+            InjectDevBoons(); 
         }
 
-        if (UncollectedBoons < MaxTankCapacity && IdleTankManager.Instance != null)
+        if (Input.GetKeyDown(KeyCode.F2))
         {
-            float productionThisFrame = IdleTankManager.Instance.GetTotalBoonsPerSecond() * Time.deltaTime;
-            UncollectedBoons += productionThisFrame;
+            HardResetGame();
+        }
 
-            if (UncollectedBoons > MaxTankCapacity)
+#endif
+        if (IdleTankManager.Instance != null) 
+        {
+            //Calculate base production and grab the Focus multiplier (defaults to 1 if no focus active)
+            float multiplier = (FocusManager.Instance != null) ? FocusManager.Instance.CurrentMultiplier : 1f;
+            float productionThisFrame = IdleTankManager.Instance.GetTotalBoonsPerSecond() * Time.deltaTime * multiplier; 
+
+            //Are we currently in Focus Mode?
+            bool isFocusing = FocusManager.Instance != null && FocusManager.Instance.IsFocusModeActive;
+
+            if (isFocusing)
             {
-                UncollectedBoons = MaxTankCapacity;
+                // FOCUS MODE: Auto-bank the money so they aren't punished by the capacity limit!
+                BankedBoons += productionThisFrame; 
+
+                // Throttle the UI broadcast so we don't spam updates every frame
+                _uiUpdateTimer += Time.deltaTime; 
+                if (_uiUpdateTimer >= UI_UPDATE_INTERVAL) 
+                {
+                    OnBankChanged?.Invoke(BankedBoons); 
+                    _uiUpdateTimer = 0f; 
+                }
             }
-
-            //THROTTLED EVENT BROADCAST
-            // Instead of updating UI every frame, broadcast the new tank values 10x a second.
-            _uiUpdateTimer += Time.deltaTime;
-            if (_uiUpdateTimer >= UI_UPDATE_INTERVAL)
+            else if (UncollectedBoons < MaxTankCapacity) 
             {
-                OnTankFilled?.Invoke(UncollectedBoons, MaxTankCapacity);
-                _uiUpdateTimer = 0f;
+                // NORMAL IDLE MODE: Fill the tank up to the cap
+                UncollectedBoons += productionThisFrame; 
+
+                if (UncollectedBoons > MaxTankCapacity) 
+                {
+                    UncollectedBoons = MaxTankCapacity; 
+                }
+
+                _uiUpdateTimer += Time.deltaTime; 
+                if (_uiUpdateTimer >= UI_UPDATE_INTERVAL) 
+                {
+                    OnTankFilled?.Invoke(UncollectedBoons, MaxTankCapacity); 
+                    _uiUpdateTimer = 0f; 
+                }
             }
         }
     }
